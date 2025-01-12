@@ -1,10 +1,10 @@
 # Configuration settings for the social media data scraper
 
 # Twitter API credentials
-twitter_api_key = 'YOUR_TWITTER_API_KEY'
-twitter_api_secret_key = 'YOUR_TWITTER_API_SECRET_KEY'
-twitter_access_token = 'YOUR_TWITTER_ACCESS_TOKEN'
-twitter_access_token_secret = 'YOUR_TWITTER_ACCESS_TOKEN_SECRET'
+x_api_key = 'YOUR_TWITTER_API_KEY'
+x_api_secret_key = 'YOUR_TWITTER_API_SECRET_KEY'
+x_access_token = 'YOUR_TWITTER_ACCESS_TOKEN'
+x_access_token_secret = 'YOUR_TWITTER_ACCESS_TOKEN_SECRET'
 
 # Reddit API credentials
 reddit_client_id = 'YOUR_REDDIT_CLIENT_ID'
@@ -22,10 +22,10 @@ subreddits = ['python', 'datascience', 'machinelearning']
 
 # Configuration dictionary
 config = {
-    'twitter_api_key': twitter_api_key,
-    'twitter_api_secret_key': twitter_api_secret_key,
-    'twitter_access_token': twitter_access_token,
-    'twitter_access_token_secret': twitter_access_token_secret,
+    'x_api_key': x_api_key,
+    'x_api_secret_key': x_api_secret_key,
+    'x_access_token': x_access_token,
+    'x_access_token_secret': x_access_token_secret,
     'reddit_client_id': reddit_client_id,
     'reddit_client_secret': reddit_client_secret,
     'reddit_user_agent': reddit_user_agent,

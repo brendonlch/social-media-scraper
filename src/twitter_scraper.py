@@ -10,14 +10,14 @@ logger = logging.getLogger(__name__)
 
 # Load configuration settings
 config = load_config()
-TWITTER_API_KEY = config['twitter_api_key']
-TWITTER_API_SECRET_KEY = config['twitter_api_secret_key']
-TWITTER_ACCESS_TOKEN = config['twitter_access_token']
-TWITTER_ACCESS_TOKEN_SECRET = config['twitter_access_token_secret']
+X_API_KEY = config['x_api_key']
+X_API_SECRET_KEY = config['x_api_secret_key']
+X_ACCESS_TOKEN = config['x_access_token']
+X_ACCESS_TOKEN_SECRET = config['x_access_token_secret']
 
 # Authenticate with Twitter API
-auth = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_SECRET_KEY)
-auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
+auth = tweepy.OAuthHandler(X_API_KEY, X_API_SECRET_KEY)
+auth.set_access_token(X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 def scrape_twitter(keywords):

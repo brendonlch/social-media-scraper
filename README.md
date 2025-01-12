@@ -38,7 +38,7 @@ This project collects social media data from Twitter and Reddit, storing it in a
 
 3. **Set up API credentials:**
 
-   * Obtain Twitter API keys from [Twitter Developer Portal](https://developer.twitter.com/).
+   * Obtain X API keys from [X Developer Portal](https://developer.x.com/en/portal/dashboard).
    * Obtain Reddit API credentials from [Reddit Developer Portal](https://www.reddit.com/prefs/apps).
    * Update `config/config.py` with your API keys and other configuration settings.
 
